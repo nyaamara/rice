@@ -52,7 +52,7 @@ cite {
 
 .jhp input[type="submit"], .jhp input[type="submit"]:hover, s.sbdd_a input, s.sbdd_a input:hover, .gbafba, .gbqfba, .gbqfba-hvr, .gbqfb, .gbqfbb, .ab_button, .ab_button.selected, .ab_button.selected:hover, .ab_button:hover {
     background: -moz-linear-gradient(top, #505050, #505050);
-    background-image: gradient(linear, left top, left bottom, from(#505050), to(#505050));
+    background-image: -moz-linear-gradient(top, #505050, #505050);
     background-color: rgb(80, 80, 80);
     border: #505050;
     color: rgb(190, 190, 190);
