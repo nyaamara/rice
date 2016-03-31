@@ -135,7 +135,7 @@
        height: 0
     }
 
-    a.gb_b.gb_Pb, .gb_oc, #ab_opt_icon, .selected ._p0b, .nV461 {
+    a.gb_b.gb_Pb, .gb_oc, #ab_opt_icon, .selected ._p0b, .nV461, ._Fnc {
        filter: invert(1) !important
     }
     
@@ -148,5 +148,11 @@
         background: #505050;
         border: 1px solid #505050;
         margin: 0
+    }
+    
+    ._zF, .mslg .ab_button, ._zF:hover, .mslg .ab_button:hover  {
+        background: #505050;
+        border: 1px solid rgb(52, 52, 52);
+        color: rgb(190, 190, 190)
     }
 }
