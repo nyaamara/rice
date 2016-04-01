@@ -1,0 +1,51 @@
+@-moz-document domain(citrusui.me) {
+  
+  [class], [id] {
+    color: #BEBEBE !important;
+  }
+  
+  .navbar-default {
+    background-color: rgb(64, 64, 64) !important;
+    border-color: rgb(64, 64, 64) !important;
+  }
+  
+  .navbar-default .navbar-nav > li > a:focus {
+    color: #BEBEBE !important;
+  }
+  
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: rgb(52, 52, 52) !important;
+    color: #BEBEBE !important;
+  }
+  
+  .nav-pills > li.active > a {
+    background-color: #505050;
+    color: #BEBEBE
+  }
+  
+  .nav > li > a:hover, .nav > li > a:focus {
+    background-color: #505050 !important;
+    color: #BEBEBE;
+  }
+  
+  body {
+    background-color: #373737
+  }
+
+  hr {
+    border-top: 2px solid #707070
+  }
+  
+  .tooltip-inner {
+    background-color: #505050;
+  }
+  
+  .tooltip.bottom .tooltip-arrow {
+    border-bottom-color: #505050;
+  }
+  
+  .btn-default {
+    filter: invert(0.785);
+    color: #BEBEBE !important;
+  }
+}
