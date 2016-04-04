@@ -6,7 +6,7 @@
       font-weight: normal !important;
    }
    
-   body {
+   body, .commit-group-title .octicon-git-commit {
       background: #373737;
    }
    
@@ -17,23 +17,44 @@
    
    .header-seach-input, .form-control {
       background: #505050 !important;
-      border-color: #505050;
+      border-color: #707070;
       color: #BEBEBE
    }
    
-   .btn, .btn:hover, .btn.selected {
+   .btn, .btn:hover, .btn.selected, .social-count {
       background-color: #505050;
       background-image: linear-gradient(#505050, #505050);
-      border: 1px solid #404040
+      border-color: #404040
    }
    
+   .commit-tease, .commit-tease-contributors, .file-header, table.files td, .boxed-group > h3, .readme .markdown-body, .select-menu-modal, .select-menu-header, .select-menu-filters, .user-repos .filter-bar, .mini-repo-list > :last-child .mini-repo-list-item {
+      background-color: #505050;
+   }
+   
+   .select-menu-header .select-menu-title {
+      text-shadow: 0px 0px 0px !important;
+   }
+   
+   .select-menu-tabs a.selected {
+      background-color: #606060;
+      border-color: #707070;
+   }
+
    .reponav-item.selected {
       background-color: #343434;
-      border-color: white #343434 transparent;
-      
+      border-color: white #343434 transparent;      
+   }
+
+   .commit-tease, table.files td, .boxed-group > h3, .readme .markdown-body, .commit-tease-contributors, .file-header, .select-menu-text-filter input, .select-menu-item, .select-menu-tabs.selected, .select-menu-item a.selected, .table-list-bordered .table-list-cell:first-child, .table-list, .file-wrap, .table-list-cell, .overall-summary, .repository-lang-stats-graph, .commit-tease, .file, .select-menu-tabs, .boxed-group.flush .boxed-group-inner, .user-repos .filter-bar {
+      border-color: #707070 !important
    }
    
-   .overall-summary, .repository-lang-stats-graph {
-      border: 1px solid #606060;
+   table.files tr.navigation-focus td, .select-menu-item.navigation-focus, .commits-list-item.navigation-focus, .mini-repo-list-item:hover {
+      background: #606060 !important;
+   }
+   
+   .blob-num {
+      border: solid #606060;
+      border-width: 0 1px 0 0;
    }
 }
