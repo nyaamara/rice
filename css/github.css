@@ -6,8 +6,17 @@
       font-weight: normal !important;
    }
    
-   body, .commit-group-title .octicon-git-commit {
+   body, .commit-group-title .octicon-git-commit, .conversation-list-heading .inner, .profilecols .filter-bar, .blame-blob-num {
       background: #373737;
+   }
+   
+   .tabnav-tab.selected {
+      background-color: #404040;
+      border-color: #404040
+   }
+   
+   .tabnav-tabs {
+      border-bottom: 2px solid #404040;
    }
    
    .header, .repohead.experiment-repo-nav {
@@ -45,7 +54,7 @@
       border-color: white #343434 transparent;      
    }
 
-   .commit-tease, table.files td, .boxed-group > h3, .readme .markdown-body, .commit-tease-contributors, .file-header, .select-menu-text-filter input, .select-menu-item, .select-menu-tabs.selected, .select-menu-item a.selected, .table-list-bordered .table-list-cell:first-child, .table-list, .file-wrap, .table-list-cell, .overall-summary, .repository-lang-stats-graph, .commit-tease, .file, .select-menu-tabs, .boxed-group.flush .boxed-group-inner, .user-repos .filter-bar {
+   .commit-tease, table.files td, .boxed-group > h3, .readme .markdown-body, .commit-tease-contributors, .file-header, .select-menu-text-filter input, .select-menu-item, .select-menu-tabs.selected, .select-menu-item a.selected, .table-list-bordered .table-list-cell:first-child, .table-list, .file-wrap, .table-list-cell, .overall-summary, .repository-lang-stats-graph, .commit-tease, .file, .select-menu-tabs, .boxed-group.flush .boxed-group-inner, .user-repos .filter-bar, .blame-commit, .blame-commit-info, .blame-commit + .blame-line {
       border-color: #707070 !important
    }
    
@@ -56,5 +65,9 @@
    .blob-num {
       border: solid #606060;
       border-width: 0 1px 0 0;
+   }
+   
+   rect {
+      display: none;
    }
 }
