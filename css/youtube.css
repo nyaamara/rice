@@ -1,0 +1,32 @@
+@-moz-document domain(youtube.com) {
+ 
+  [id],[class] {
+    color: rgb(190,190,190) !important;
+  }
+ 
+  body {
+    background-color: #373737
+  }
+ 
+  ol, .shelf-description, .yt-ui-ellipsis, .yt-ui-ellipsis-2, .yt-card, #yt-masthead-container, #yt-masthead-content, #yt-masthead .yt-masthead-logo-container, #guide-container, #appbar-guide-menu, #appbar-nav  {
+    background-color: #404040
+  }
+ 
+  /* Borders & Separators */
+  .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box, #watch7-sidebar .watch-sidebar-separation-line, #yt-masthead-container, .branded-page-v2-subnav-container, #c4-header-bg-container, .guide-section-separator, .guide-pinned .guide-pinning-enabled #appbar-guide-menu, #masthead-appbar {
+    border-color: #606060;
+  }
+ 
+  .yt-card .yt-uix-button-expander {
+    border-top-color: #606060;
+  }
+ 
+  /* Icon Inversion */
+  .autoplay-bar .autoplay-info-icon, #watch8-action-buttons .yt-uix-butto {
+    filter: invert(0.785);
+  }
+ 
+  #watch8-action-buttons {
+    border-color: transparent;
+  }
+}
