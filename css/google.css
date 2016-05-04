@@ -1,7 +1,7 @@
 @-moz-document domain(google.com) {
     
    [class], [id] {
-      font-family: SF UI Display !important;
+      font-family: San Francisco Display !important;
       font-weight: normal !important;
    }
 
@@ -57,14 +57,14 @@
       background-color: rgb(80, 80, 80);
       border: #505050;
       color: rgb(190, 190, 190) !important;
-      font-family: SF UI Display;
+      font-family: San Francisco Display;
       font-weight: normal;
    }
 
    /* Gmail + Images Links */
    #gb#gb a.gb_P, #gb#gb span.gb_P, #gb#gb a.gb_b, .gb_b {
       color: rgb(190, 190, 190) !important;
-      font-family: SF UI Display !important;
+      font-family: San Francisco Display !important;
       
    }
 
@@ -75,7 +75,7 @@
       color: rgb(190, 190, 190) !important;
       font-weight: normal;
       font-size: 12.5px;
-      font-family: SF UI Display !important;
+      font-family: San Francisco Display !important;
    }
 
    /* Bottom bar/Fbar */
@@ -158,6 +158,10 @@
       background: #505050;
       border: 1px solid rgb(52, 52, 52);
       color: rgb(190, 190, 190)
+   }
+   
+   ._akb {
+      background-color: #505050;
    }
    
    *[id^='lr_dct_img_origin'], *[id^='lr_dct_img_use'], .vk_aru, .vk_ard, .tw-menu-btn-image {
