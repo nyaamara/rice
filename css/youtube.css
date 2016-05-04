@@ -2,12 +2,16 @@
  
   [id],[class] {
     color: rgb(190,190,190);
-    font-family: "SF UI Display" !important;
+    font-family: San Francisco Display !important;
   }
   
   a, .video-list .video-list-item .title:hover, .yt-lockup-title a:hover {
     color: #4285F4 !important;  
   }
+  
+  a:visited {
+      color: #7E57C2;
+   }
   
   .comment-renderer-header .comment-renderer-time a, .video-list .video-list-item .title, #masthead-search-terms input, .comment-simplebox-text, .video-list .video-list-item .stat, .yt-uix-button-content, .yt-lockup-title a, .yt2-uix-button, .yt-uix-button-default, .filter-top .num-results, .yt-uix-button-has-icon.no-icon-markup .yt-uix-button-content {
     color: rgb(190,190,190) !important;
@@ -36,10 +40,6 @@
   
   .yt-card .yt-uix-button-expander {
     border-top-color: #606060;
-  }
-  
-   {
-    color: red !important;
   }
  
   /* Icon Inversion */
