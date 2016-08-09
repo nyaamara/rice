@@ -1,11 +1,6 @@
 @-moz-document domain(google.com) {
-    
-   [class], [id] {
-      font-family: San Francisco Display !important;
-      font-weight: normal !important;
-   }
 
-   body, a.ab_button, a.ab_button:hover {
+   body, a.ab_button, a.ab_button:hover, #cnt {
       background: #373737 !important;
       color: rgb(190, 190, 190) !important;
    }
@@ -22,7 +17,7 @@
       color: #34A853
    }
 
-   .s, .kno-ecr-pt, #hdtb .hdtb-mitem a, #hdtb .hdtb-mitem a:hover, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, #resultStats, #hdtb.notl div, #hdtb .hdtbItm a, .hdtbItm.hdtbSel, ._xdb .fl, .gsfi, #cdrlnk, #foot #navcnt .cur, #wob_loc, #wob_dts, #wob_dcp, #wob_dc, #wob_d, #wob_tm, .vk_sh, #wob_ttm, .vk_bk, .lr_dct_lbl_box, #center_col ._WGh .exp-txt-c, ._cwc, .tw-lang-selector, .tw-data-text, #tw-source-text-ta {
+   .s, .kno-ecr-pt, #hdtb .hdtb-mitem a, #hdtb .hdtb-mitem a:hover, #hdtb-msb #hdtb-more, #hdtb-msb #hdtb-tls, #resultStats, #hdtb.notl div, #hdtb .hdtbItm a, .hdtbItm.hdtbSel, ._xdb .fl, .gsfi, #cdrlnk, #foot #navcnt .cur, #wob_loc, #wob_dts, #wob_dcp, #wob_dc, #wob_d, #wob_tm, .vk_sh, #wob_ttm, .vk_bk, .lr_dct_lbl_box, #center_col ._WGh .exp-txt-c, ._cwc, .tw-lang-selector, .tw-data-text, #tw-source-text-ta, ._baj {
       color: rgb(190, 190, 190) !important;
    }
 
