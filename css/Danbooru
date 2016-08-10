@@ -1,0 +1,60 @@
+@-moz-document domain(donmai.us) {
+  body, #page {
+    background-color: #373737;
+    color: #BEBEBE !important;
+  }
+  
+  a:link, .category-0 a {
+    color: #4285F4
+  }
+  
+  a:link:hover {
+    text-decoration: underline;
+  }
+  
+  .category-1 a, a.login {
+    color: #e53935
+  }
+  
+  .category-3 a {
+    color: #7E57C2
+  }
+  
+  .category-4 a {
+    color: #34A853
+  }
+  
+  #top, #page-footer, table.striped tr.even, div#c-posts div.nav-notice, div#c-posts div.nav-notice:hover, div#c-posts div#a-show #pool-nav li:hover {
+    background-color: #404040;
+    border-color: #373737
+  }
+  
+  footer#page-footer, table.striped tbody tr {
+    border-color: #343434
+  }
+  
+  table.striped tbody tr:hover {
+    background-color: #505050
+  }
+  
+  header#top menu, header#top menu.main li.current a {
+    background: #343434
+  }
+  
+  .ui-widget-content {
+    background: #505050;
+    border: none 
+  }
+  
+    .ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus {
+    border: none;    
+    background: none;
+    background-color: #606060;
+    color: transparent
+  }
+  
+  .bbb-endless-divider,  .bbb-endless-divider-link  {
+    background-color: #373737;
+    border-color: #505050; 
+  }
+}
