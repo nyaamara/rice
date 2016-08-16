@@ -2,7 +2,6 @@
  
   [id],[class] {
     color: rgb(190,190,190);
-    font-family: San Francisco Display !important;
   }
   
   a, .video-list .video-list-item .title:hover, .yt-lockup-title a:hover {
@@ -13,15 +12,19 @@
       color: #7E57C2;
    }
   
-  .comment-renderer-header .comment-renderer-time a, .video-list .video-list-item .title, #masthead-search-terms input, .comment-simplebox-text, .video-list .video-list-item .stat, .yt-uix-button-content, .yt-lockup-title a, .yt2-uix-button, .yt-uix-button-default, .filter-top .num-results, .yt-uix-button-has-icon.no-icon-markup .yt-uix-button-content {
+  .comment-renderer-header .comment-renderer-time a, .video-list .video-list-item .title, #masthead-search-terms input, .comment-simplebox-text, .video-list .video-list-item .stat, .yt-uix-button-content, .yt-lockup-title a, .yt2-uix-button, .yt-uix-button-default, .filter-top .num-results, #watch7-sidebar .watch-sidebar-head, .autoplay-bar .checkbox-on-off {
     color: rgb(190,190,190) !important;
+  }
+  
+  .yt-uix-button-has-icon.no-icon-markup .yt-uix-button-content {
+    color: rgb(0,0,0) !important;
   }
  
   body {
     background-color: #373737
   }
   
-  #masthead-search-terms input, .comment-simplebox-text, .comment-renderer.channel-owner .comment-author-text {
+  #masthead-search-terms input, .comment-simplebox-text, .comment-renderer.channel-owner .comment-author-text, .yt-ui-menu-item:hover {
     background: #505050 !important;
   }
   
@@ -29,15 +32,15 @@
     border-color: #505050
   }
  
-  ol, .shelf-description, .yt-ui-ellipsis, .yt-ui-ellipsis-2, .yt-card, #yt-masthead-container, #yt-masthead-content, #yt-masthead .yt-masthead-logo-container, #guide-container, #appbar-guide-menu, #appbar-nav, .yt-uix-button-default, .yt-uix-button-default:hover, .yt-uix-button.yt-uix-button-subscribed-branded, .exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count, .comment-simplebox, .yt-uix-expander-ellipsis  {
+  ol, .shelf-description, .yt-ui-ellipsis, .yt-ui-ellipsis-2, .yt-card, #yt-masthead-container, #yt-masthead-content, #yt-masthead .yt-masthead-logo-container, #guide-container, #appbar-guide-menu, #appbar-nav, .yt-uix-button-default, .yt-uix-button-default:hover, .yt-uix-button.yt-uix-button-subscribed-branded, .exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count, .comment-simplebox, .yt-uix-expander-ellipsis, .yt-subscription-button-subscriber-count-branded-horizontal, .yt-uix-button-default.yt-uix-button-toggled, .yt-uix-button-default.yt-uix-button-toggled:hover, .yt-ui-menu-content, body #footer-container  {
     background-color: #404040
   }
  
   /* Borders & Separators */
-  .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box, #watch7-sidebar .watch-sidebar-separation-line, #yt-masthead-container, .branded-page-v2-subnav-container, #c4-header-bg-container, .guide-section-separator, .guide-pinned .guide-pinning-enabled #appbar-guide-menu, #masthead-appbar, #watch8-action-buttons, .yt-uix-button-default, .yt-uix-button-default:hover, .yt-uix-button.yt-uix-button-subscribed-branded, .exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count, .comment-simplebox-renderer, .comment-simplebox-renderer-collapsed-content, .comment-simplebox-text, .comment-simplebox-text:focus, .comment-simplebox-arrow .arrow-inner, .yt-card .yt-uix-tabs, .search-header, .yt-lockup-playlist-item, .yt-uix-form-input-text, .yt-uix-form-input-text:focus, .yt-uix-form-input-checkbox-element, .yt-uix-form-input-checkbox-container input:checked + .yt-uix-form-input-checkbox-element {
+  .branded-page-v2-primary-col .branded-page-box, .section-list li .item-section .branded-page-box, #watch7-sidebar .watch-sidebar-separation-line, #yt-masthead-container, .branded-page-v2-subnav-container, #c4-header-bg-container, .guide-section-separator, .guide-pinned .guide-pinning-enabled #appbar-guide-menu, #masthead-appbar, #watch8-action-buttons, .yt-uix-button-default, .yt-uix-button-default:hover, .yt-uix-button.yt-uix-button-subscribed-branded, .exp-responsive #content .yt-uix-button-subscription-container .yt-subscriber-count, .comment-simplebox-renderer, .comment-simplebox-renderer-collapsed-content, .comment-simplebox-text, .comment-simplebox-text:focus, .comment-simplebox-arrow .arrow-inner, .yt-card .yt-uix-tabs, .search-header, .yt-lockup-playlist-item, .yt-uix-form-input-text, .yt-uix-form-input-text:focus, .yt-uix-form-input-checkbox-element, .yt-uix-form-input-checkbox-container input:checked + .yt-uix-form-input-checkbox-element, .yt-subscription-button-subscriber-count-branded-horizontal, .yt-badge, .yt-uix-button-default.yt-uix-button-toggled, .yt-uix-button-default.yt-uix-button-toggled:hover, .yt-ui-menu-content, #footer-main, body #footer-container {
     border-color: #606060;
   }
-  
+
   .yt-card .yt-uix-button-expander {
     border-top-color: #606060;
   }
@@ -49,5 +52,9 @@
   
   .comment-simplebox-arrow .arrow-inner, .comment-simplebox-arrow .arrow-outer {
     display: none
+  }
+  
+  .yt-uix-button-default.yt-uix-button-toggled, .yt-uix-button-default.yt-uix-button-toggled:hover {
+    box-shadow: none;
   }
 }
