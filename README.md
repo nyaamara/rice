@@ -1,3 +1,2 @@
 # rice
-Collection of rice-related things I use, e.g. startpages, CSS, etc.
-Also used for general backup purposes.
+Collection of my rice and rice-related things.
